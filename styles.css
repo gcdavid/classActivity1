@@ -56,3 +56,38 @@
   height: 100%;
   border-radius: 10%;
 }
+
+/*section container css*/
+.contact__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.form__container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 350px;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px;
+  width: 80px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  background-color: teal;
+  border: none;
+  cursor: pointer;
+}
