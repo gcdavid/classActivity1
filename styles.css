@@ -15,8 +15,12 @@
 
 .logo {
   color: white;
-  background-color: rgb(7, 7, 25);
+  background-color: rgb(5, 5, 23);
   padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
 
 .navbar__links__container {
@@ -61,6 +65,10 @@
 .about__section {
   padding: 20px;
   line-height: 25px;
+}
+
+.about__intro {
+  margin-bottom: 20px;
 }
 
 /*section container css*/
