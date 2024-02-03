@@ -34,7 +34,7 @@
 /*hero container css*/
 .hero__container {
   display: flex;
-  padding: 40px;
+  padding: 20px;
   align-items: center;
 }
 
@@ -57,12 +57,24 @@
   border-radius: 10%;
 }
 
+/*about section css*/
+.about__section {
+  padding: 20px;
+  line-height: 25px;
+}
+
 /*section container css*/
 .contact__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  padding: 20px;
+}
+
+.contact__left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .form__container > form {
